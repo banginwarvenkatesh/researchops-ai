@@ -88,5 +88,4 @@ class PluginRegistry:
             plugin
             for plugin in self._plugins.values()
             if capability in plugin.metadata.capabilities
-            and plugin.metadata.enabled
         ]
