@@ -18,5 +18,3 @@ class PluginMetadata:
     capabilities: List[str] = field(default_factory=list)
 
     supported_markets: List[str] = field(default_factory=list)
-
-    enabled: bool = True
